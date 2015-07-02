@@ -64,7 +64,7 @@ pip search "query"
 - Output installed packages in requirements text format.
 
 ```
-pip freeze
+pip freeze > requirements.txt
 ```
 ## Package info
 ```
