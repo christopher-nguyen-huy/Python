@@ -89,3 +89,9 @@ Errors will occur, like when trying to compile lxml for python-docx
 - [Visual C++ 2010 Redistributable (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=14632)
 - [Visual C++ 2010 Redistributable (x86) SP1](http://www.microsoft.com/en-us/download/details.aspx?id=8328)
 - [Visual C++ 2010 Redistributable (x64) SP1](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+
+## Install from cmdline
+```python
+python-3.5.1.exe /passive InstallAllUsers=1 TargetDir=C:\Unix\Python35 PrependPath=1 Shortcuts=0 Include_doc=0 Include_debug=1
+```
+
