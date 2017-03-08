@@ -91,7 +91,13 @@ Errors will occur, like when trying to compile lxml for python-docx
 - [Visual C++ 2010 Redistributable (x64) SP1](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
 
 ## Install from cmdline
+https://docs.python.org/3.5/using/windows.html
 ```python
 python-3.5.1.exe /passive InstallAllUsers=1 TargetDir=C:\Unix\Python35 PrependPath=1 Shortcuts=0 Include_doc=0 Include_debug=1
 ```
 
+## How to compile c Extensions
+https://blog.ionelmc.ro/2014/12/21/compiling-python-extensions-on-windows/
+Either install VS 2015/2017 Community Edition
+or 
+Get the MS [http://landinghub.visualstudio.com/visual-cpp-build-tools](C++ Build tooks)
