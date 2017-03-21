@@ -98,6 +98,4 @@ python-3.5.1.exe /passive InstallAllUsers=1 TargetDir=C:\Unix\Python35 PrependPa
 
 ## How to compile c Extensions
 https://blog.ionelmc.ro/2014/12/21/compiling-python-extensions-on-windows/
-Either install VS 2015/2017 Community Edition
-or 
-Get the MS [http://landinghub.visualstudio.com/visual-cpp-build-tools](C++ Build tooks)
+Either install VS 2015/2017 Community Edition or get the MS [C++ Build tooks](http://landinghub.visualstudio.com/visual-cpp-build-tools)
